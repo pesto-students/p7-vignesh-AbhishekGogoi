@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Moving Boxes</title>
+    <link rel="stylesheet" href="styleweek2.2css.css" />
+
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="first-box"></div>
+        <div class="second-box"></div>
+        <div class="third-box"></div>
+        <div class="fourth-box"></div>
+        <h3>Hi!</h3>
+
+    </div>
+
+</body>
+
+</html>
