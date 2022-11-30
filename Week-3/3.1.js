@@ -20,12 +20,11 @@ function add(a, b) {
 }
 
 const memoizeAdd = memoize(add)
-console.time()
 console.log(memoizeAdd(100, 100))
-console.timeEnd()
-console.time()
+
+
 console.log(memoizeAdd(100, 100))
-console.timeEnd()
+
 
 
 console.log(memoizeAdd(10, 200))
