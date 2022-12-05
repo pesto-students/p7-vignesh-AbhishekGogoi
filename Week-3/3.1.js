@@ -15,12 +15,13 @@ function memoize(fn) {
     };
 }
 
-function add(a, b) {
-    return a + b;
+function add(...args) {
+    return args.reduce((total, current) => total + current);
 }
 
 const memoizeAdd = memoize(add)
-console.log(memoizeAdd(100, 100))
+
+console.log(memoizeAdd(100, 100, 100))
 
 
 console.log(memoizeAdd(100, 100))
