@@ -21,6 +21,6 @@ increment();
 log();
 
 /* 
-When we run the createIncrement() function for the first time on line 16, the value of count is 0 at the initial on line 2 and therefore the message will be displayed as Count is 0 from line 7 since we have not run the log() function and the count value stays 0 and is not incremented since we have not run the increment() function as well. When we first run the createIncrement() function it will take the initial value of count as 0 from line2 and the message will be displayed as Count is 0 from line 7. The increment() function is run 3 times from line 18 and the count will be incremented 3 times but while running the createIncrement() function it is not incremented since it is run after createFunction() has been executed.
+When we run the function in line 16, the createIncrement() function runs, first the count is initialized as 0 as given in line number 2. Then after that line number 7 executes which stores the count as a String and thats why in line number 8 the count value is 0. When line 18,19 & 20 executes the count value increments but since the count value is stored as a String beforehand in line 7 the message log is printed as "Count is 0", because it is stored as a String and the incremented value is not stored.
 
 */
