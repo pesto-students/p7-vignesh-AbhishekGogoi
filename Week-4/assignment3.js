@@ -1,8 +1,8 @@
 const Fibonacci = (num) => ({
     [Symbol.iterator]: () => {
-        let i = 1,
-            old = 0,
-            new1 = 1;
+        let i = 0,
+            old = 1,
+            new1 = 0;
 
         return {
             next: () => {
