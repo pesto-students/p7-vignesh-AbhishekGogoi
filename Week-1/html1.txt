@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Custom Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-area">
+            <div class="running">
+                <img src="https://uploads.codesandbox.io/uploads/user/a8233562-b36b-483d-9de9-5a1ac148fb0c/2Eq--cattyboard.jpg" alt="Catty Board" class="img" />
+                <div class="content">
+                    <h3>CattyBoard Top 100 Single Charts (11.06.36)</h3>
+                    <p>Unknown Artist</p>
+                    <p>2016. Charts. 100 songs</p>
+                    <div class="buttons">
+                        <span class="control-btn"><span class="las la-play"></span> Play all</span>
+                        <span class="control-btn"><span class="las la-plus"> </span> Add to</span>
+                        <span class="control-btn"><span class="las la-ellipsis-h"></span> More</span>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <table class="queue">
+                    <tr>
+                        <td>1. One Dance</td>
+                        <td>Crake feat CatKid & Cyla</td>
+                        <td>2:54</td>
+                        <td>
+                            <button><span class="button1">CATTY CLOUD SYNC</span></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2. Panda</td>
+                        <td>Cattee</td>
+                        <td>4:06</td>
+                        <td>
+                            <button><span class="button1">CATTY CLOUD SYNC</span></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3. Can't stop the Feeling!</td>
+                        <td>Catin Cimberlake</td>
+                        <td>3:56</td>
+                        <td>
+                            <button><span class="button1">CATTY CLOUD SYNC</span></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4. Work from home</td>
+                        <td>Cat Harmony feat Colla</td>
+                        <td>3:54</td>
+                        <td>
+                            <button><span class="button1">CATTY CLOUD SYNC</span></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <aside class="side-bar">
+            <span class="las la-bars side-icon"></span>
+            <span class="las la-home side-icon"></span>
+            <span class="las la-search side-icon"></span>
+            <span class="las la-volume-up side-icon"></span>
+            <span class="las la-user side-icon"></span>
+            <span class="lab la-spotify side-icon"></span>
+            <span class="las la-cog side-icon"></span>
+            <span class="lab la-soundcloud side-icon"></span>
+        </aside>
+    </div>
+    <div class="current">
+        <img src="https://uploads.codesandbox.io/uploads/user/a8233562-b36b-483d-9de9-5a1ac148fb0c/2Eq--cattyboard.jpg" alt="Catty Board" class="CurrentImg" />
+        <div class="content">
+            <h3>If It Ain't love</h3>
+            <p>Catson Derulo</p>
+        </div>
+        <div class="iconList">
+            <span class="current-btn las la-step-backward"></span>
+            <span class="current-btn las la-pause"></span>
+            <span class="current-btn las la-step-forward"></span>
+            <span class="current-btn las la-undo-alt"></span>
+            <span class="current-btn las la-random"></span>
+        </div>
+    </div>
+</body>
+
+</html>
